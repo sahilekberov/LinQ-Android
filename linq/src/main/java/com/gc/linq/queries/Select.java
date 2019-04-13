@@ -90,7 +90,7 @@ public class Select<T,K> {
         }
         return true;
     }
-
+    
     protected boolean checkSubQuery(K item, SubQuery subQuery){
         Object o = splitItem(item,subQuery);
         if(o == null) return  false;
